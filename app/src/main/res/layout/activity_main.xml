@@ -135,8 +135,9 @@
                 android:layout_above="@+id/noPan"
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/button_desabled"
-                android:text="@string/next"
                 android:gravity="center_horizontal"
+                android:text="@string/next"
+                android:enabled="false"
                 android:textColor="@color/white" />
 
             <TextView

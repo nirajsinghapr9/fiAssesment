@@ -131,8 +131,10 @@ class MainActivity : AppCompatActivity() {
             ) && !etDate!!.text.toString().isEmpty()
         ) {
             next!!.background = resources.getDrawable(R.drawable.button_enabled)
+            next!!.isEnabled = true;
         } else {
             next!!.background = resources.getDrawable(R.drawable.button_desabled)
+            next!!.isEnabled = false;
         }
     }
 
